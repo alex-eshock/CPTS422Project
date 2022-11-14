@@ -4,8 +4,6 @@ import com.puppycrawl.tools.checkstyle.api.*;
 import java.util.regex.Pattern;
  
 public class NumComCheck extends AbstractCheck {
-
-//mVariable, mAge, mStudentID      
  
     private static final String CATCH_MSG = "Comments within a certain class: ";
     

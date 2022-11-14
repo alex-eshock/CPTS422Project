@@ -3,7 +3,7 @@ package halsteadPackage;
 import com.puppycrawl.tools.checkstyle.api.*;
 import java.util.regex.Pattern;
  
-public class HalsteadCheck extends AbstractCheck {
+public class HalsteadLength extends AbstractCheck {
 
 //mVariable, mAge, mStudentID      
  

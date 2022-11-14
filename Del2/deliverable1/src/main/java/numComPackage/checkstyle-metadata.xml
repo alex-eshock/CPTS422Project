@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE checkstyle-metadata PUBLIC
+"-//eclipse-cs//DTD Check Metadata 1.1//EN"
+"http://eclipse-cs.sourceforge.net/dtds/checkstyle-metadata_1_1.dtd">
+<checkstyle-metadata>
+    <rule-group-metadata name="NumComments"  priority="1600">
+        <description>%NumCom.desc</description>
+
+        <rule-metadata name="%NumCom.name" internal-name="NumComCheck" parent="TreeWalker">
+            <alternative-name internal-name="numComPackage.NumComCheck" />
+            <description>%NumCom.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%NumLineComCheck.name" internal-name="NumLineComCheck" parent="TreeWalker">
+            <alternative-name internal-name="numComPackage.NumLineComCheck" />
+            <description>%NumCom.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%NumLoopCheck.name" internal-name="NumLoopCheck" parent="TreeWalker">
+            <alternative-name internal-name="numComPackage.NumLoopCheck" />
+            <description>%NumCom.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%NumOperatorCheck.name" internal-name="NumOperatorCheck" parent="TreeWalker">
+            <alternative-name internal-name="numComPackage.NumOperatorCheck" />
+            <description>%NumCom.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%NumOperandsCheck.name" internal-name="NumOperandsCheck" parent="TreeWalker">
+            <alternative-name internal-name="numComPackage.NumOperandsCheck" />
+            <description>%NumCom.desc</description>
+        </rule-metadata>
+        
+        <rule-metadata name="%NumExpressionsCheck.name" internal-name="NumExpressionsCheck" parent="TreeWalker">
+            <alternative-name internal-name="numComPackage.NumExpressionsCheck" />
+            <description>%NumCom.desc</description>
+        </rule-metadata>
+        
+    </rule-group-metadata>
+</checkstyle-metadata>
